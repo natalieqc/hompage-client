@@ -7,7 +7,7 @@ import NotFound from './views/NotFound';
 
 function App() {
   return (
-    <HashRouter basename="/client">
+    <HashRouter>
       <div>
         <Switch>
           <Route exact path="/" component={Home} />
