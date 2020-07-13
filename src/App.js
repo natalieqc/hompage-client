@@ -6,7 +6,7 @@ import About from './components/About.js';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/client">
       <div>
         <Switch>
           <Route exact path="/" component={Home} />
